@@ -250,6 +250,7 @@ void SystemClock_Config(void)
 
     HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0);
 }
+```
 ## Result
 
 The digital sensor was successfully interfaced with the STM32 microcontroller. The LED connected to PA5 turned ON when the sensor input at PA0 was HIGH and turned OFF when the sensor input was LOW.
