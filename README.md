@@ -152,6 +152,10 @@ Thus, the STM32 automatically controls the LED according to the digital sensor i
 11. Stop.
 
 ---
+## OUTPUT
+
+<img width="576" height="581" alt="image" src="https://github.com/user-attachments/assets/1824232d-d27d-43da-b5ed-4351c987fd71" />
+
 
 ## Program
 
@@ -250,7 +254,10 @@ void SystemClock_Config(void)
 
     HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0);
 }
+
+
+---
 ```
-## Result
+### Result
 
 The digital sensor was successfully interfaced with the STM32 microcontroller. The LED connected to PA5 turned ON when the sensor input at PA0 was HIGH and turned OFF when the sensor input was LOW.
